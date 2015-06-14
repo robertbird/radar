@@ -2,9 +2,9 @@
   "name": "technologyradar",
   "version": "1.1.0",
   "author": [
-    "Urban Sanden <hej@urre.me>"
+    "Robert Bird <robert.bird@adactus.co.uk>"
   ],
-  "description": "A simple technology radar map",
+  "description": "The Adactus technology radar for 2015",
   "license": "MIT",
   "ignore": [
     "**/.*",

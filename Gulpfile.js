@@ -156,8 +156,8 @@ gulp.task('images', function() {
       progressive: true,
       svgoPlugins: [{
         removeViewBox: false
-      }],
-      use: [pngcrush()]
+      }]//,
+      //use: [pngcrush()]
     }))
     .pipe(gulp.dest(
       basePaths.images.dist

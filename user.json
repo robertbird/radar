@@ -1,10 +1,10 @@
 { "user":
     [
         {
-            "name": "Urban Sandén",
-            "email": "hej@urre.me",
-            "website": "http://urre.me",
-            "background": "http://urre.github.io/radar/images/tiles.svg"
+            "name": "Adactus Ltd",
+            "email": "adactus@robertbird.co.uk",
+            "website": "http://www.adactus.co.uk",
+            "background": "http://www.adactus.co.uk/assets/img/pattern-default.gif"
         }
     ]
 }

@@ -7,14 +7,34 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<title>Technology Radar 2015</title>
+	<title>Adactus Technology Radar 2015</title>
 	<meta name="description" content="A little technology radar map inspired from Thoughtworks publication Technology Radar">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 	<link rel="apple-touch-icon" href="images/favicon.png">
 
+    <link rel="stylesheet" href="../app/themes/adactus/assets/css/main.css">
 	<link rel="stylesheet" href="dist/radar.min.css">
+    <style>
+        @media (min-width: 768px) {
+.page-headline.primary {
+  padding: 35px 40px 30px;
+}
+        }
+        .header {
+            position: relative; height: 65px;
+        }
+        .layoutswitch {
+  background: #f9f9f9;
+        }
+        .techniques, .tools {
+            margin-top: -100px;
+        }
+        .radar.compact .frameworks, .radar.compact .platforms, .radar.compact .techniques, .radar.compact .tools {
+            margin-top: 0px;
+        }
+    </style>
 </head>
 <body>
 
@@ -23,6 +43,22 @@
 		<input type="checkbox" name="layout" class="js-switch" checked />
 		<label for="layout" class="">Radar</label>
 	</div>
+<div class="case-study-intro2" style="margin-bottom: 0; padding-bottom:0; ">
+  <div class="container">
+    <div style="font-size: 0.8em; padding: 0 15% 0 15%; ">
+      <div>
+      <a href="Adactus-Technology-Radar-2015.pdf" target="_blank">Download the full technology radar report for detailed insights and current trends in serious software development.</a>
+      </div>
+<!--
+      <div class="case-study-intro-summary">
+        <div class="client-logo">
+          <img class="auto-width" src="http://www.adactus.co.uk/assets/img/pdf-icon.png" alt="The Adactus 2015 Technology Radar Report">        </div>
+      </div>
+-->
+    </div>
+  </div>
+</div>
+    
 
 	<div class="radar">
 		<div class="xline"></div>
@@ -40,39 +76,18 @@
 		<div class="hold"></div>
 	</div>
 
-	<footer role="contentinfo" class="footer">
-		<div class="container p4">
-			<div class="clearfix">
-			  <div class="sm-col sm-col-12 lg-col-6">
-			  <p>A simple technology radar map, made famous by <a href="http://www.thoughtworks.com/radar/">Thoughtworks</a></p>
-			  	<p class="mt0 pt0">
-			  		<a href="https://github.com/urre/radar#make-your-own-radar" class="mr4">Make your own radar?</a>
-			  	</p>
-			  </div>
-			  <div class="sm-col sm-col-12 lg-col-6">
-			  	<a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
-			  	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			  </div>
-			</div>
-
-		</div>
-		<div class="footer__copy center bg-white p2">
-			<p>
-				<small>A project by <a href="http://urre.me" class="">Urban Sandén</a></small>
-			</p>
-			<p>
-				<iframe src="http://ghbtns.com/github-btn.html?user=urre&repo=radar&type=watch" allowtransparency="true" frameborder="0" scrolling="0" width="74px" height="20px"></iframe>
-			</p>
-		</div>
-	</footer>
-
+    
+    
 	<script id="usertmpl" type="text/template">
 		{{#user}}
+<header class="header" role="banner">
+    <a class="logo" href="/">  Adactus  </a>
+</header>
 
-		<header role="banner" class="center header" style="background-image: url({{background}}); ">
-			<h1>Technology Radar 2015</h1>
-			<p>{{#gravatar email size="64"}}{{/gravatar}}<a class="white" href="{{website}}">{{name}}</a></p>
-		</header>
+<div class="page-headline primary">
+	<h1>Technology Radar 2015</h1>		
+</div>
+
 
 		{{/user}}
 	</script>

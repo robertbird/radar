@@ -1,154 +1,261 @@
 { "blips":
     [
+        
         {
-            "title": "Framer",
-            "area": "tools",
+            "title": "Virtualisation",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://en.wikipedia.org/wiki/Virtualization"
+        },
+        {
+            "title": "Cloud Hosting",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://www.adactus.co.uk/clouds-changing-shape/"
+        },
+        {
+            "title": "Test Driven Development",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://en.wikipedia.org/wiki/Test-driven_development"
+        },
+        {
+            "title": "Continuous Delivery",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://en.wikipedia.org/wiki/Continuous_delivery"
+        },
+        {
+            "title": "Agile Development",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://www.adactus.co.uk/rediscovering-agile/"
+        },
+        {
+            "title": "Pair Programming",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://en.wikipedia.org/wiki/Pair_programming" 
+        },
+        {
+            "title": "Inversion of Control",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://martinfowler.com/bliki/InversionOfControl.html" 
+        },
+        {
+            "title": "Database Continuous Integration",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://martinfowler.com/articles/evodb.html" 
+        },
+        {
+            "title": "Single Page Applications",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://en.wikipedia.org/wiki/Single-page_application"
+        },
+        {
+            "title": "APM tools",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://en.wikipedia.org/wiki/Application_performance_management" 
+        },
+        {
+            "title": "Online Video Training",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://www.pluralsight.com/" 
+        },
+        {
+            "title": "Asynchronous Messaging",
+            "area": "techniques",
+            "status": "adopt",
+            "link": "http://www.enterpriseintegrationpatterns.com/"
+        },
+        
+        {
+            "title": "MVVM",
+            "area": "techniques",
+            "status": "trial",
+            "link": "http://en.wikipedia.org/wiki/Model_View_ViewModel" 
+        },
+        {
+            "title": "Behaviour Driven Development",
+            "area": "techniques",
             "status": "assess",
-            "link": "http://framerjs.com"
+            "link": "http://en.wikipedia.org/wiki/Behavior-driven_development"
         },
         {
-            "title": "BrowserSync",
+            "title": "Micro Services",
+            "area": "techniques",
+            "status": "assess",
+            "link": "http://martinfowler.com/articles/microservices.html"
+        },
+        {
+            "title": "Infrastructure as Code",
+            "area": "techniques",
+            "status": "assess",
+            "link": "http://www.ibm.com/developerworks/library/a-devops2/"
+        },
+        {
+            "title": "iBeacon",
+            "area": "techniques",
+            "status": "assess",
+            "link": "http://www.adactus.co.uk/marketing-ibeacons/"
+        },
+        {
+            "title": "Internet of Things",
+            "area": "techniques",
+            "status": "assess",
+            "link": "http://www.adactus.co.uk/the-internet-of-things/" 
+        },
+        
+        
+        
+        
+        
+        
+        {
+            "title": "Resharper",
             "area": "tools",
             "status": "adopt",
-            "link": "http://browsersync.io"
+            "link": "https://www.jetbrains.com/resharper/"
         },
         {
-            "title": "Browserify",
+            "title": "Octopus Deploy",
+            "area": "tools",
+            "status": "adopt",
+            "link": "http://www.adactus.co.uk/technology/octopus/"
+        },
+        {
+            "title": "TeamCity Build Server",
+            "area": "tools",
+            "status": "adopt",
+            "link": "http://www.adactus.co.uk/technology/teamcity/"
+        },
+        {
+            "title": "Powershell",
+            "area": "tools",
+            "status": "adopt",
+            "link": "http://en.wikipedia.org/wiki/Windows_PowerShell"
+        },
+        {
+            "title": "AppDynamics",
+            "area": "tools",
+            "status": "adopt",
+            "link": "https://www.appdynamics.co.uk/"
+        },
+        {
+            "title": "NCrunch",
+            "area": "tools",
+            "status": "adopt",
+            "link": "http://www.ncrunch.net/"
+        },
+        {
+            "title": "Specflow & Selenium",
+            "area": "tools",
+            "status": "adopt",
+            "link": "http://www.specflow.org/"
+        },
+        {
+            "title": "ServiceStack",
+            "area": "tools",
+            "status": "adopt",
+            "link": "https://servicestack.net/"
+        },
+        {
+            "title": "Bootstrap",
+            "area": "tools",
+            "status": "adopt",
+            "link": "http://getbootstrap.com/"
+        },
+        {
+            "title": "WebpageTest",
+            "area": "tools",
+            "status": "adopt",
+            "link": "http://www.webpagetest.org/"
+        },
+        {
+            "title": "Cross Browser Testing",
+            "area": "tools",
+            "status": "adopt",
+            "link": "https://crossbrowsertesting.com/"
+        },
+        {
+            "title": "Hockey App",
+            "area": "tools",
+            "status": "adopt",
+            "link": "http://hockeyapp.net/features/"
+        },
+        {
+            "title": "Dev HTTP REST Client (DHC)",
+            "area": "tools",
+            "status": "adopt",
+            "link": "https://chrome.google.com/webstore/detail/dhc-resthttp-api-client/aejoelaoggembcahagimdiliamlcdmfm"
+        },
+        
+        {
+            "title": "AppFabric Distributed Cache",
             "area": "tools",
             "status": "trial",
-            "link": "http://browserify.org"
+            "link": "http://en.wikipedia.org/wiki/AppFabric_Caching"
         },
         {
-            "title": "Mapbox",
-            "area": "platforms",
+            "title": "SonarQube",
+            "area": "tools",
             "status": "trial",
-            "link": "http://mapbox.com"
+            "link": "http://www.sonarqube.org/"
         },
         {
-            "title": "Invision",
+            "title": "Grunt / Gulp",
             "area": "tools",
-            "status": "adopt",
-            "link": "http://invisionapp.com"
-        },
-        {
-            "title": "Gulp",
-            "area": "tools",
-            "status": "adopt",
+            "status": "trial",
             "link": "http://gulpjs.com"
         },
         {
-            "title": "Sketch Notebook",
+            "title": "Raygun.io",
             "area": "tools",
-            "status": "adopt",
-            "link": "https://github.com/marcosvidal/Sketch-Notebook"
+            "status": "trial",
+            "link": "https://raygun.io/"
         },
         {
-            "title": "React",
+            "title": "Serilog",
+            "area": "tools",
+            "status": "trial",
+            "link": "http://serilog.net/"
+        },
+        {
+            "title": "Desired State Configuration",
+            "area": "tools",
+            "status": "assess",
+            "link": "http://serilog.net/"
+        },
+        {
+            "title": "Redis",
+            "area": "tools",
+            "status": "assess",
+            "link": "http://redis.io/"
+        },
+        {
+            "title": "Docker",
+            "area": "tools",
+            "status": "assess",
+            "link": "http://www.docker.com/"
+        },
+        
+        
+        
+        
+        
+        
+        
+        
+        {
+            "title": "Backbone",
             "area": "frameworks",
-            "status": "trial",
-            "link": "http://facebook.github.io/react"
-        },
-        {
-            "title": "BASSCSS",
-            "area": "tools",
             "status": "adopt",
-            "link": "http://www.basscss.com/"
-        },
-        {
-            "title": "Ember.js",
-            "area": "frameworks",
-            "status": "adopt",
-            "link": "http://emberjs.com"
-        },
-        {
-            "title": "Flexbox",
-            "area": "techniques",
-            "status": "adopt",
-            "link": "http://css-tricks.com/snippets/css/a-guide-to-flexbox/"
-        },
-        {
-            "title": "Styleguides",
-            "area": "techniques",
-            "status": "adopt",
-            "link": "http://styleguides.io/"
-        },
-        {
-            "title": "SMIL",
-            "area": "techniques",
-            "status": "trial",
-            "link": "http://css-tricks.com/guide-svg-animations-smil/"
-        },
-        {
-            "title": "BEM",
-            "area": "techniques",
-            "status": "adopt",
-            "link": "http://bem.info"
-        },
-        {
-            "title": "CSS Architectural Principles",
-            "area": "techniques",
-            "status": "adopt",
-            "link": "http://cssguidelin.es/#architectural-principles"
-        },
-        {
-            "title": "Responsive Deliverables",
-            "area": "techniques",
-            "status": "adopt",
-            "link": "http://daverupert.com/2013/04/responsive-deliverables/"
-        },
-        {
-            "title": "Responsive images",
-            "area": "techniques",
-            "status": "adopt",
-            "link": "http://alistapart.com/article/responsive-images-in-practice"
-        },
-        {
-            "title": "Node",
-            "area": "platforms",
-            "status": "adopt",
-            "link": "http://nodejs.org"
-        },
-        {
-            "title": "Digital Ocean",
-            "area": "platforms",
-            "status": "adopt",
-            "link": "http://digitalocean.com"
-        },
-        {
-            "title": "SassDoc",
-            "area": "tools",
-            "status": "adopt",
-            "link": "http://sassdoc.com/"
-        },
-        {
-            "title": "MkDocs",
-            "area": "tools",
-            "status": "adopt",
-            "link": "http://mkdocs.org"
-        },
-        {
-            "title": "KSS",
-            "area": "tools",
-            "status": "adopt",
-            "link": "http://warpspire.com/kss/"
-        },
-        {
-            "title": "Finch",
-            "area": "tools",
-            "status": "adopt",
-            "link": "https://meetfinch.com/"
-        },
-        {
-            "title": "Harp",
-            "area": "tools",
-            "status": "trial",
-            "link": "http://harpjs.com/"
-        },
-        {
-            "title": "Vagrant",
-            "area": "tools",
-            "status": "adopt",
-            "link": "http://vagrantup.com/"
+            "link": "http://backbonejs.org/"
         },
         {
             "title": "AngularJS",
@@ -157,10 +264,119 @@
             "link": "http://angularjs.com/"
         },
         {
-            "title": "Inline SVG",
-            "area": "techniques",
+            "title": "Knockout",
+            "area": "frameworks",
             "status": "trial",
-            "link": "http://viget.com/extend/getting-started-with-inline-svg"
+            "link": "http://knockoutjs.com/"
+        },
+        {
+            "title": "ASP.NET 5 / .NET Core Framework",
+            "area": "frameworks",
+            "status": "assess",
+            "link": "https://www.dotnetfoundation.org/netcore5"
+        },
+        {
+            "title": "LESS / SASS",
+            "area": "frameworks",
+            "status": "assess",
+            "link": "http://sass-lang.com/"
+        },
+        {
+            "title": "React",
+            "area": "frameworks",
+            "status": "assess",
+            "link": "http://facebook.github.io/react"
+        },
+        {
+            "title": "Aurelia",
+            "area": "frameworks",
+            "status": "assess",
+            "link": "http://aurelia.io/"
+        },
+        {
+            "title": "Node JS",
+            "area": "frameworks",
+            "status": "assess",
+            "link": "http://nodejs.org"
+        },
+        {
+            "title": "F#",
+            "area": "frameworks",
+            "status": "assess",
+            "link": "http://fsharp.org/"
+        },
+        {
+            "title": "Reactive Extensions / ReactiveUI",
+            "area": "frameworks",
+            "status": "assess",
+            "link": "http://reactivex.io/"
+        },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {
+            "title": "Microsoft Azure",
+            "area": "platforms",
+            "status": "adopt",
+            "link": "http://azure.microsoft.com/en-gb/"
+        },
+        {
+            "title": "Rackspace Cloud Hosting",
+            "area": "platforms",
+            "status": "adopt",
+            "link": "http://www.adactus.co.uk/adactus-announce-strategic-gold-partnership-with-rackspace/"
+        },
+        {
+            "title": "Appcelerator Titanium",
+            "area": "platforms",
+            "status": "adopt",
+            "link": "http://www.adactus.co.uk/titanium-the-adactus-choice-for-rapid-app-development/"
+        },
+        {
+            "title": "Kentico CMS",
+            "area": "platforms",
+            "status": "adopt",
+            "link": "http://www.kentico.com/Partners/Adactus"
+        },
+        
+        {
+            "title": "NopCommerce",
+            "area": "platforms",
+            "status": "adopt",
+            "link": "http://www.adactus.co.uk/technology/nop-commerce/"
+        },
+        {
+            "title": "Microsoft SQL Server",
+            "area": "platforms",
+            "status": "adopt",
+            "link": "http://www.adactus.co.uk/technology/microsoft-sql-2008/"
+        },
+        {
+            "title": "Mongo DB",
+            "area": "platforms",
+            "status": "adopt",
+            "link": "https://www.mongodb.org/"
+        },
+        {
+            "title": "Xamarin",
+            "area": "platforms",
+            "status": "trial",
+            "link": "http://xamarin.com/"
+        },
+        {
+            "title": "Ionic",
+            "area": "platforms",
+            "status": "assess",
+            "link": "http://ionicframework.com/"
         }
+        
+        
+        
     ]
 }
